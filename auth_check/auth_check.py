@@ -19,6 +19,7 @@ class auth_check:
         put = []
         delete = []
 
+        print("Loding TXT File")
         for area in file_string:
             line = area.split("\n")
             if line[0].upper() == "GET:":
@@ -32,14 +33,33 @@ class auth_check:
             else:
                 print("Unexpected Tag :" + line[0])
                 return False
-        
+            if req.text.find("200 ok") == -1:
+
         targets = [get, post, put, delete]
         print("target File Loading Complete")
         return targets
 
-    def auth_check(self, url, target, redirect):
+    def auth_check(self, url, target, key):
         log_file = open("./auth_check.log", 'w')
+        print("Starting Page Authentication Check")
+        for index, method in enumerate(target):
+            for target in method:
+                uri = url + target
+                req = None
+                if index == 0:
+                    req = requests.get(uri)
+                elif index == 1:
+                    req = requests.post(uri)
+                elif index == 2:
+                    req = requests.put(uri)
+                elif index == 3:
+                    req = requests.delete(uri)
+                if req.text.find(key) == -1:
+                    log_file.write(uri + "Redirect not detected")
+                else:
+                    log_file.write(uri + "redirect detect")
 
+        print("Finish! Let's see log!")
         log_file.close()
 
 
@@ -48,7 +68,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-u", "--url", help="url option")
     parser.add_argument("-t", "--txt", help="add txt file option")
-    parser.add_argument("-r", "--redirect", help="redirect url")
+    parser.add_argument("-k", "--keyword", help="keyword")
 
 
     args = parser.parse_args()
@@ -56,8 +76,7 @@ if __name__ == "__main__":
 
     if args.url and args.txt and args.redirect:
         target = access_control.load_targets(args.txt)
-        print(target)
-        auth_check.auth_check(args.url, target, args.redirect)
+        access_control.auth_check(args.url, target, args.keyword)
     else:
-        print("Usage : -u URL -t TXTFILE -r REDIRCTURL")
+        print("Usage : -u URL -t TXTFILE -k KEYWORD")
         print("Type --help to show option list")

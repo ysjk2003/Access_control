@@ -1,0 +1,10 @@
+GET:
+/
+/dse
+
+POST:
+/dse/accounts/permissions/isAuthorized
+
+PUT:
+
+DELETE:

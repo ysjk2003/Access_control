@@ -19,7 +19,7 @@ class auth_check:
         put = []
         delete = []
 
-        print("Loding TXT File")
+        print("Loding TXT File ...")
         for area in file_string:
             line = area.split("\n")
             if line[0].upper() == "GET:":
@@ -33,18 +33,18 @@ class auth_check:
             else:
                 print("Unexpected Tag :" + line[0])
                 return False
-            if req.text.find("200 ok") == -1:
 
         targets = [get, post, put, delete]
-        print("target File Loading Complete")
+        print("target File Loading Complete!")
         return targets
 
     def auth_check(self, url, target, key):
         log_file = open("./auth_check.log", 'w')
-        print("Starting Page Authentication Check")
+        print("Starting Page Authentication Check ...")
         for index, method in enumerate(target):
             for target in method:
                 uri = url + target
+                print("Checking + uri + " ...")
                 req = None
                 if index == 0:
                     req = requests.get(uri)
@@ -55,9 +55,9 @@ class auth_check:
                 elif index == 3:
                     req = requests.delete(uri)
                 if req.text.find(key) == -1:
-                    log_file.write(uri + "Redirect not detected")
+                    log_file.write(uri + " Redirect not detected\n")
                 else:
-                    log_file.write(uri + "redirect detect")
+                    log_file.write(uri + " redirect detect\n")
 
         print("Finish! Let's see log!")
         log_file.close()
@@ -74,7 +74,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     access_control = auth_check()
 
-    if args.url and args.txt and args.redirect:
+    if args.url and args.txt and args.keyword:
         target = access_control.load_targets(args.txt)
         access_control.auth_check(args.url, target, args.keyword)
     else:

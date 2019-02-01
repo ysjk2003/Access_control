@@ -11,7 +11,6 @@ class auth_check:
             return False
         else:
             file_string = target_file.read().split("\n\n")
-
         target_file.close()
 
         get = []
@@ -48,10 +47,8 @@ class auth_check:
                 req = None
                 if index == 0:
                     req = requests.get(uri)
-                    print(req.text)
                 elif index == 1:
                     req = requests.post(uri)
-                    print(req.text)
                 elif index == 2:
                     req = requests.put(uri)
                 elif index == 3:

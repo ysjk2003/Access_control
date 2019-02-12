@@ -1,3 +1,178 @@
-http://192.168.30.82:9090/ Redirect not detected
-http://192.168.30.82:9090/dse Redirect not detected
-http://192.168.30.82:9090/dse/accounts/permissions/isAuthorized redirect detect
+http://192.168.30.83:8080/ redirect detect
+http://192.168.30.83:8080/images/basic.svg Redirect not detected
+http://192.168.30.83:8080/images/user.svg Redirect not detected
+http://192.168.30.83:8080/library/g2gs/account/login.js redirect detect
+http://192.168.30.83:8080/library/g2gs/common/global.js Redirect not detected
+http://192.168.30.83:8080/library/ng/assets/i18n/kr.json Redirect not detected
+http://192.168.30.83:8080/library/ng/inline.bundle.js Redirect not detected
+http://192.168.30.83:8080/library/ng/main.bundle.js Redirect not detected
+http://192.168.30.83:8080/library/ng/polyfills.bundle.js Redirect not detected
+http://192.168.30.83:8080/library/ng/scripts.bundle.js Redirect not detected
+http://192.168.30.83:8080/library/ng/styles.bundle.js Redirect not detected
+http://192.168.30.83:8080/library/ng/vendor.bundle.js Redirect not detected
+http://192.168.30.83:8080/library/vendor/angular/angular-1.5.3.js Redirect not detected
+http://192.168.30.83:8080/library/vendor/bootstrap/bootstrap-3.3.2.min.js Redirect not detected
+http://192.168.30.83:8080/library/vendor/jquery/jquery-3.1.1.min.js Redirect not detected
+http://192.168.30.83:8080/library/vendor/jquery/jquery-ui-1.12.1.js Redirect not detected
+http://192.168.30.83:8080/library/vendor/moment/moment-2.18.1.js Redirect not detected
+http://192.168.30.83:8080/soe redirect detect
+http://192.168.30.83:8080/soe/accounts/account/admin redirect detect
+http://192.168.30.83:8080/soe/accounts/action/myinfo/admin redirect detect
+http://192.168.30.83:8080/soe/accounts/action/permissions/admin redirect detect
+http://192.168.30.83:8080/soe/accounts/action/roles/admin redirect detect
+http://192.168.30.83:8080/soe/accounts/currentAccount redirect detect
+http://192.168.30.83:8080/soe/accounts/list/columns redirect detect
+http://192.168.30.83:8080/soe/accounts/list/roles redirect detect
+http://192.168.30.83:8080/soe/accounts/roles/accounts/list redirect detect
+http://192.168.30.83:8080/soe/accounts/session/timeout redirect detect
+http://192.168.30.83:8080/soe/algorithms/list/columns redirect detect
+http://192.168.30.83:8080/soe/algorithms/refresh redirect detect
+http://192.168.30.83:8080/soe/algorithms/versions/list redirect detect
+http://192.168.30.83:8080/soe/clusters/4 redirect detect
+http://192.168.30.83:8080/soe/clusters/4/list/nodes redirect detect
+http://192.168.30.83:8080/soe/clusters/list redirect detect
+http://192.168.30.83:8080/soe/clusters/list/columns redirect detect
+http://192.168.30.83:8080/soe/clusters/type/list redirect detect
+http://192.168.30.83:8080/soe/credentials/27 redirect detect
+http://192.168.30.83:8080/soe/credentials/all redirect detect
+http://192.168.30.83:8080/soe/credentials/byName/soe_sat_tester redirect detect
+http://192.168.30.83:8080/soe/credentials/list/columns redirect detect
+http://192.168.30.83:8080/soe/endpoints/29 redirect detect
+http://192.168.30.83:8080/soe/endpoints/all redirect detect
+http://192.168.30.83:8080/soe/endpoints/columns redirect detect
+http://192.168.30.83:8080/soe/endpoints/list/protocolType redirect detect
+http://192.168.30.83:8080/soe/fileTransmission/130 redirect detect
+http://192.168.30.83:8080/soe/fileTransmission/list/all redirect detect
+http://192.168.30.83:8080/soe/fileTransmission/list/columns redirect detect
+http://192.168.30.83:8080/soe/fileTransmission/log/list/columns redirect detect
+http://192.168.30.83:8080/soe/fileTransmissionCondition/57 redirect detect
+http://192.168.30.83:8080/soe/fileTransmissionCondition/all redirect detect
+http://192.168.30.83:8080/soe/fileTransmissionCondition/list/columns redirect detect
+http://192.168.30.83:8080/soe/login redirect detect
+http://192.168.30.83:8080/soe/login redirect detect
+http://192.168.30.83:8080/soe/loginLog/list/columns redirect detect
+http://192.168.30.83:8080/soe/logout redirect detect
+http://192.168.30.83:8080/soe/main redirect detect
+http://192.168.30.83:8080/soe/mission/request2/list/columns redirect detect
+http://192.168.30.83:8080/soe/mission/request2/target/times redirect detect
+http://192.168.30.83:8080/soe/mission/request2/template/2019-02-01%2014:20:51 redirect detect
+http://192.168.30.83:8080/soe/mission/schedule/list/columns redirect detect
+http://192.168.30.83:8080/soe/nodes/21 redirect detect
+http://192.168.30.83:8080/soe/nodes/list/all redirect detect
+http://192.168.30.83:8080/soe/nodes/list/columns redirect detect
+http://192.168.30.83:8080/soe/nodes/spec_history/19 redirect detect
+http://192.168.30.83:8080/soe/nodes/spec_history/list/columns redirect detect
+http://192.168.30.83:8080/soe/nodes/status/list/columns redirect detect
+http://192.168.30.83:8080/soe/nodes/update/spec redirect detect
+http://192.168.30.83:8080/soe/organizations/26 redirect detect
+http://192.168.30.83:8080/soe/organizations/all redirect detect
+http://192.168.30.83:8080/soe/organizations/list/columns redirect detect
+http://192.168.30.83:8080/soe/products/columns redirect detect
+http://192.168.30.83:8080/soe/products/rules redirect detect
+http://192.168.30.83:8080/soe/products/types redirect detect
+http://192.168.30.83:8080/soe/realTimeProductStatus/list/columns redirect detect
+http://192.168.30.83:8080/soe/realTimeProductStatus/overall/list/columns redirect detect
+http://192.168.30.83:8080/soe/repository/backup/list/columns redirect detect
+http://192.168.30.83:8080/soe/repository/backup redirect detect
+http://192.168.30.83:8080/soe/repository/list redirect detect
+http://192.168.30.83:8080/soe/repository/list/columns redirect detect
+http://192.168.30.83:8080/soe/reprocessing/list/columns redirect detect
+http://192.168.30.83:8080/soe/reprocessingProductStatus/status/list/columns/31 redirect detect
+http://192.168.30.83:8080/soe/reprocessingProductStatus/status_overall/list/columns redirect detect
+http://192.168.30.83:8080/soe/resources/list/columns redirect detect
+http://192.168.30.83:8080/soe/utils/adeHost redirect detect
+http://192.168.30.83:8080/soe/utils/alfrescoHost redirect detect
+http://192.168.30.83:8080/soe/utils/dseHost redirect detect
+http://192.168.30.83:8080/soe/utils/grafanaHost redirect detect
+http://192.168.30.83:8080/soe/utils/soeHost redirect detect
+http://192.168.30.83:8080/soe/utils/tdsHost redirect detect
+http://192.168.30.83:8080/soe/utils/webSocketWorkHost redirect detect
+http://192.168.30.83:8080/soe/works/events redirect detect
+http://192.168.30.83:8080/soe/works/imageRef/1746 redirect detect
+http://192.168.30.83:8080/soe/works/log/286205 redirect detect
+http://192.168.30.83:8080/soe/works/priority/list redirect detect
+http://192.168.30.83:8080/soe/works/sceneId/2018-04-01.07-16-40 redirect detect
+http://192.168.30.83:8080/soe/works/workList redirect detect
+http://192.168.30.83:8080/soe/works/workTypes redirect detect
+http://192.168.30.83:8080/soe/works/work_info/list/columns redirect detect
+http://192.168.30.83:8080/soe/accounts redirect detect
+http://192.168.30.83:8080/soe/accounts/action/permissions/isAuthorized redirect detect
+http://192.168.30.83:8080/soe/accounts/activate redirect detect
+http://192.168.30.83:8080/soe/accounts/count redirect detect
+http://192.168.30.83:8080/soe/accounts/delete redirect detect
+http://192.168.30.83:8080/soe/accounts/delete/roles redirect detect
+http://192.168.30.83:8080/soe/accounts/rolesWithPermission redirect detect
+http://192.168.30.83:8080/soe/accounts/search redirect detect
+http://192.168.30.83:8080/soe/algorithms/count redirect detect
+http://192.168.30.83:8080/soe/algorithms/search redirect detect
+http://192.168.30.83:8080/soe/auth Redirect not detected
+http://192.168.30.83:8080/soe/clusters redirect detect
+http://192.168.30.83:8080/soe/clusters/count redirect detect
+http://192.168.30.83:8080/soe/clusters/search redirect detect
+http://192.168.30.83:8080/soe/credentials/count redirect detect
+http://192.168.30.83:8080/soe/credentials/search redirect detect
+http://192.168.30.83:8080/soe/endpoints/count redirect detect
+http://192.168.30.83:8080/soe/endpoints/search redirect detect
+http://192.168.30.83:8080/soe/fileTransmission/count redirect detect
+http://192.168.30.83:8080/soe/fileTransmission/log/count redirect detect
+http://192.168.30.83:8080/soe/fileTransmission/log/search redirect detect
+http://192.168.30.83:8080/soe/fileTransmission/search redirect detect
+http://192.168.30.83:8080/soe/fileTransmission/transmission redirect detect
+http://192.168.30.83:8080/soe/fileTransmissionCondition redirect detect
+http://192.168.30.83:8080/soe/fileTransmissionCondition/count redirect detect
+http://192.168.30.83:8080/soe/fileTransmissionCondition/search redirect detect
+http://192.168.30.83:8080/soe/loginLog/count redirect detect
+http://192.168.30.83:8080/soe/loginLog/search redirect detect
+http://192.168.30.83:8080/soe/mission/request2/count redirect detect
+http://192.168.30.83:8080/soe/mission/request2/search redirect detect
+http://192.168.30.83:8080/soe/mission/schedule/search redirect detect
+http://192.168.30.83:8080/soe/nodes redirect detect
+http://192.168.30.83:8080/soe/nodes/count redirect detect
+http://192.168.30.83:8080/soe/nodes/search redirect detect
+http://192.168.30.83:8080/soe/nodes/spec_history/count redirect detect
+http://192.168.30.83:8080/soe/nodes/spec_history/search redirect detect
+http://192.168.30.83:8080/soe/nodes/status/count redirect detect
+http://192.168.30.83:8080/soe/nodes/status/search redirect detect
+http://192.168.30.83:8080/soe/organizations redirect detect
+http://192.168.30.83:8080/soe/organizations/count redirect detect
+http://192.168.30.83:8080/soe/organizations/search redirect detect
+http://192.168.30.83:8080/soe/realTimeProductStatus/count redirect detect
+http://192.168.30.83:8080/soe/realTimeProductStatus/overall/count redirect detect
+http://192.168.30.83:8080/soe/realTimeProductStatus/overall/search redirect detect
+http://192.168.30.83:8080/soe/realTimeProductStatus/search redirect detect
+http://192.168.30.83:8080/soe/repository/backup/count redirect detect
+http://192.168.30.83:8080/soe/repository/backup/execute redirect detect
+http://192.168.30.83:8080/soe/repository/backup/search redirect detect
+http://192.168.30.83:8080/soe/repository/count redirect detect
+http://192.168.30.83:8080/soe/repository/restore/execute redirect detect
+http://192.168.30.83:8080/soe/repository/search redirect detect
+http://192.168.30.83:8080/soe/reprocessing redirect detect
+http://192.168.30.83:8080/soe/reprocessing/count redirect detect
+http://192.168.30.83:8080/soe/reprocessing/search redirect detect
+http://192.168.30.83:8080/soe/reprocessingProductStatus/status_overall/count redirect detect
+http://192.168.30.83:8080/soe/resources/list/advanced_count redirect detect
+http://192.168.30.83:8080/soe/resources/search redirect detect
+http://192.168.30.83:8080/soe/resources/upload redirect detect
+http://192.168.30.83:8080/soe/works/event redirect detect
+http://192.168.30.83:8080/soe/works/work_group/search redirect detect
+http://192.168.30.83:8080/soe/works/work_info/count redirect detect
+http://192.168.30.83:8080/soe/works/work_info/search redirect detect
+http://192.168.30.83:8080/soe/accounts/reset_password redirect detect
+http://192.168.30.83:8080/soe/accounts/roles redirect detect
+http://192.168.30.83:8080/soe/algorithms/install redirect detect
+http://192.168.30.83:8080/soe/credentials redirect detect
+http://192.168.30.83:8080/soe/endpoints redirect detect
+http://192.168.30.83:8080/soe/fileTransmission redirect detect
+http://192.168.30.83:8080/soe/fileTransmissionCondition redirect detect
+http://192.168.30.83:8080/soe/nodes/spec_history redirect detect
+http://192.168.30.83:8080/soe/organizations redirect detect
+http://192.168.30.83:8080/soe/products/ redirect detect
+http://192.168.30.83:8080/soe/repository/backup redirect detect
+http://192.168.30.83:8080/soe/clusters/5 redirect detect
+http://192.168.30.83:8080/soe/credentials/28 redirect detect
+http://192.168.30.83:8080/soe/endpoints/30 redirect detect
+http://192.168.30.83:8080/soe/fileTransmissionCondition/59 redirect detect
+http://192.168.30.83:8080/soe/nodes/spec_history/19 redirect detect
+http://192.168.30.83:8080/soe/organizations/asdf redirect detect
+http://192.168.30.83:8080/soe/repository/backup redirect detect
+http://192.168.30.83:8080 Redirect not detected

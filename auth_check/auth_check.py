@@ -1,5 +1,4 @@
 import requests
-import argparse
 import json
 
 class auth_check:

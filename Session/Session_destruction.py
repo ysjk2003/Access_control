@@ -1,5 +1,5 @@
 import argparse
-import requests, json
+import requests
 
 def session(url, data):
     headers = {'Content-Type' : 'application/json'}
@@ -11,6 +11,10 @@ def logout(logouturl, sess):
     response = requests.get(logouturl, cookies=cookie)
     print(response.cookies.get_dict())
 
+def login(url, sess):
+    response = requests.get(url=url, cookies=sess)
+    return response.cookies.get_dict()
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-u", '--url', help="http://www.example.com/login")
@@ -21,6 +25,7 @@ if __name__ == "__main__":
     if args.url and args.data and args.logouturl:
         sess = session(args.url, args.data)
         logout(args.logouturl, sess)
+        login(args.url, sess)
     else:
         print("Usage : -u URL")
         print("Type --help to show option list")

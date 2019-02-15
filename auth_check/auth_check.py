@@ -1,5 +1,4 @@
 import requests
-import json
 
 class auth_check:
     def load_targets(self, filename):

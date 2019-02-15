@@ -1,11 +1,11 @@
 http://192.168.30.83:8080/ redirect detect
 http://192.168.30.83:8080/images/basic.svg Redirect not detected
 http://192.168.30.83:8080/images/user.svg Redirect not detected
-http://192.168.30.83:8080/library/g2gs/account/login.js redirect detect
+http://192.168.30.83:8080/library/g2gs/account/login.js Redirect not detected
 http://192.168.30.83:8080/library/g2gs/common/global.js Redirect not detected
-http://192.168.30.83:8080/library/ng/assets/i18n/kr.json Redirect not detected
+http://192.168.30.83:8080/library/ng/assets/i18n/kr.json redirect detect
 http://192.168.30.83:8080/library/ng/inline.bundle.js Redirect not detected
-http://192.168.30.83:8080/library/ng/main.bundle.js Redirect not detected
+http://192.168.30.83:8080/library/ng/main.bundle.js redirect detect
 http://192.168.30.83:8080/library/ng/polyfills.bundle.js Redirect not detected
 http://192.168.30.83:8080/library/ng/scripts.bundle.js Redirect not detected
 http://192.168.30.83:8080/library/ng/styles.bundle.js Redirect not detected
